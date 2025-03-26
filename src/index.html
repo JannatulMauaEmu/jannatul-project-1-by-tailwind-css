@@ -1,13 +1,24 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <title>Document</title>
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div class="h-screen bg-red-200 flex justify-center items-center">
+    <div class="card h-[500px] w-[500px] bg-white rounded-[50px] text-black relative">
+      <img src="bgr.jpg" alt="Image description" class="w-full h-full object-cover rounded-[50px]">
+      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+        <p class="font-medium mb-5">Audio Descriptions</p>
+        <h1 class="text-5xl font-bold mb-10">Descriptions that really make a scene</h1>
+        <p class="text-justify">Web development is the process of building and maintaining websites. It encompasses web design, content creation, coding, and database management. Developers use languages like HTML, CSS, JavaScript, and frameworks such as React or Angular to create interactive, responsive websites.</p>
+      </div>
+      <div class="absolute bottom-5 right-5 z-10">
+        <img src="plusicon.jpg" alt="Plus Icon" class="w-12 h-12 bg-white rounded-full p-2">
+      </div>
+    </div>
+  </div>
 </body>
 </html>
